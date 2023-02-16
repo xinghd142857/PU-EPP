@@ -1,6 +1,6 @@
-# Positive unlabeled learning-based enzyme promiscuity prediction (PU-EPP)
+# Positive unlabeled learning-based enzyme promiscuity prediction
 
-This repository contains the positive unlabeled learning-based enzyme promiscuity prediction model as described in the paper Deep learning Enables Rapid Identification of Mycotoxin-degrading Enzymes.
+This repository contains the positive unlabeled learning-based enzyme promiscuity prediction (PU-EPP) model as described in the paper Deep learning Enables Rapid Identification of Mycotoxin-degrading Enzymes.
 
 # Requirements
 A workstation with GPUs is essential for deploying and running PU-EPP. The final PU-EPP model published along the paper was trained on 4 NVIDIA Tesla V100 GPUs for 2 weeks.
@@ -9,7 +9,6 @@ A workstation with GPUs is essential for deploying and running PU-EPP. The final
 
 ## Dependency
 The code has been tested in the following environment:
-
 
 |  Package    | Version  |
 |  ----  | ----  |
@@ -38,12 +37,12 @@ Run train.ipynb and specify `--class CFG` to your own config.
 Run test.ipynb and specify `--class CFG` to your own config.
 
 # Predicting
-## Screening catalytic enzymes for a compound from a .faste file
+## Screening catalytic enzymes for a substrate (e.g., mycotoxins) from a .faste file
 1. To load PU-EPP model and make predictions from a .faste file, put the ***example1.fasta*** (.fasta file of candidate enzymes) in the ***data*** folder, 
 2. Run predict.ipynb and specify:
 * `--PreCFG.useFasteFile`  = True
 * `--PreCFG.fasteFile` Path to the .faste file of candidate enzymes
-* `--PreCFG.compound`  The simplified molecular input line entry system (SMILES) of your designated substrate
+* `--PreCFG.compound`  The molecular structure of the substrate in simplified molecular input line entry system (SMILES) format
 
 
 
@@ -75,10 +74,11 @@ To fine-tune PU-EPP on a new dataset:
     |  ----  | ----  | ---- |
     | SMILES1  | SEQ1 | 1 |
     | SMILES2  | SEQ2 | 0 |
+    
 2. Run finetuning.ipynb and specify:
 * `--CFG.traindata_path` Path to the .csv file of training set
 * `--CFG.testdata_path` Path to the .csv file of test set
 * `--CFG.modelsave_file_suffix` The suffix of the model name to save
 * `--CFG.result_file_suffix` The suffix of the log file name to save
 
-You will find the fine-tuned model named with `--CFG.modelsave_file_suffix` as suffix in the ***model/model_funetuning*** folder.
+You will find the fine-tuned model named with `--CFG.modelsave_file_suffix` as a suffix in the ***model/model_funetuning*** folder.
