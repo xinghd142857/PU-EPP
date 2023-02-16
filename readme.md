@@ -37,7 +37,7 @@ Run train.ipynb and specify `--class CFG` to your own config.
 Run test.ipynb and specify `--class CFG` to your own config.
 
 # Predicting
-## Screening catalytic enzymes for a substrate (e.g., mycotoxins) from a .faste file
+## Screening catalytic enzymes for a substrate from a .faste file
 1. To load PU-EPP model and make predictions from a .faste file, put the ***example1.fasta*** (.fasta file of candidate enzymes) in the ***data*** folder, 
 2. Run predict.ipynb and specify:
 * `--PreCFG.useFasteFile`  = True
