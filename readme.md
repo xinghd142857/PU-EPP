@@ -82,3 +82,7 @@ To fine-tune PU-EPP on a new dataset:
 * `--CFG.result_file_suffix` The suffix of the log file name to save
 
 You will find the fine-tuned model named with `--CFG.modelsave_file_suffix` as a suffix in the ***model/model_funetuning*** folder.
+
+
+# Assistance
+If you do not have the hardware to deploy PU-EPP, please send your data (substrate and candidate enzymes) to us via E-mail, we'll get back to you ASAP.
