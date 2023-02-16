@@ -3,7 +3,7 @@
 This repository contains the positive unlabeled learning-based enzyme promiscuity prediction (PU-EPP) model as described in the paper Deep learning Enables Rapid Identification of Mycotoxin-degrading Enzymes.
 
 # Requirements
-A workstation with GPUs is essential for deploying and running PU-EPP. The final PU-EPP model published along the paper was trained on 4 NVIDIA Tesla V100 GPUs for 2 weeks.
+A workstation with GPUs is essential for deploying PU-EPP. The final PU-EPP model published along the paper was trained on 4 NVIDIA Tesla V100 GPUs for 2 weeks.
 
 # Installation
 
