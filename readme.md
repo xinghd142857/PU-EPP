@@ -85,4 +85,4 @@ You will find the fine-tuned model named with `--CFG.modelsave_file_suffix` as a
 
 
 # Assistance
-If you do not have the hardware to deploy PU-EPP, please send your data (substrate and candidate enzymes) to us via E-mail, and we'll get the results back to you ASAP.
+If you do not have the hardware to deploy PU-EPP, please send your data (substrate and candidate enzymes) to us via E-mail (dachuan.zhang@ifu.baug.ethz.ch), and we'll get the results back to you ASAP.
