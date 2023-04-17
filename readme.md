@@ -37,7 +37,7 @@ Run train.ipynb and specify `--class CFG` to your own config.
 Run test.ipynb and specify `--class CFG` to your own config.
 
 # Predicting
-## Screening catalytic enzymes for a substrate from a .faste file
+## Screening functional enzymes for a substrate from a .faste file
 1. To load PU-EPP model and make predictions from a .faste file, put the ***example1.fasta*** (.fasta file of candidate enzymes) in the ***data*** folder, 
 2. Run predict.ipynb and specify:
 * `--PreCFG.useFasteFile`  = True
@@ -45,8 +45,7 @@ Run test.ipynb and specify `--class CFG` to your own config.
 * `--PreCFG.compound`  The molecular structure of the substrate in simplified molecular input line entry system (SMILES) format
 
 
-
-After a few minutes of calculation, you will find the screening result in the **result** folder with the name of ***example1_result.csv***.
+After a few minutes of calculation, you will find the result in the **result** folder with the name of ***example1_result.csv***.
 
 ## Predicting the probes of enzyme-substrate pairs
 1. To load PU-EPP and make predictions for enzyme-substrate pairs, put the ***example2.csv*** file (data of enzyme-substrate pairs) in the ***data*** folder.
@@ -88,9 +87,7 @@ You will find the fine-tuned model named with `--CFG.modelsave_file_suffix` as a
 For researchers do not have the hardware to deploy PU-EPP, please send your data in one of following formats to us (dachuan.zhang@ifu.baug.ethz.ch or qnhu@sibs.ac.cn), and we'll get the results back to you ASAP.
 
 1)a substrate and a list of candidate enzymes
-
 2)a enzymes and a list of candidate substrates
-
 3)a list of enzyme-substrate pairs
 
 # Link to other repositories
