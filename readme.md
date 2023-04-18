@@ -51,7 +51,7 @@ After a few minutes of calculation, you will find the result in the **result** f
 1. To load PU-EPP and make predictions for enzyme-substrate pairs, put the ***example2.csv*** file (data of enzyme-substrate pairs) in the ***data*** folder.
 
     ***example2.csv*** 
-    |  Compound    | Enzyme  |
+    |  Substrate    | Enzyme  |
     |  ----  | ----  |
     | SMILES1  | SEQ1 |
     | SMILES2  | SEQ2 |
@@ -69,7 +69,7 @@ To fine-tune PU-EPP on a new dataset:
 
     ***example3_test.train*** or ***example3_test.csv***
 
-    |  Compound    | Enzyme  | Label |
+    |  Substrate    | Enzyme  | Label |
     |  ----  | ----  | ---- |
     | SMILES1  | SEQ1 | 1 |
     | SMILES2  | SEQ2 | 0 |
