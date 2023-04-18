@@ -74,7 +74,7 @@ To fine-tune PU-EPP on a new dataset:
     | SMILES1  | SEQ1 | 1 |
     | SMILES2  | SEQ2 | 0 |
     
-    Label 1 stands for postive, 0 stands for negative.
+    Label 1 stands for postive, 0 stands for negative or unlabeled.
     
 2. Run finetuning.ipynb and specify:
 * `--CFG.traindata_path` Path to the .csv file of training set
