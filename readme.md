@@ -90,7 +90,7 @@ For researchers do not have the hardware to deploy PU-EPP, please send your data
 
 1)a substrate and a list of candidate enzymes
 
-2)a enzymes and a list of candidate substrates
+2)a enzyme and a list of candidate substrates
 
 3)a list of enzyme-substrate pairs
 
