@@ -1,5 +1,7 @@
 # DeepMBEnzy
 
+Code ref: [notebook](https://github.com/xinghd142857/PU-EPP/blob/master/finetuning.ipynb)
+
 ## Availability
 
 DeepMBEnzy is freely available at [DeepMBEnzy](http://ai.biosynther.com/DeepMBEnzy/).
