@@ -1,5 +1,9 @@
 # DeepMBEnzy
 
+finetuning_cold_protein.ipynb
+
+finetuning_random.ipynb
+
 Code ref: [notebook](https://github.com/xinghd142857/PU-EPP/blob/master/finetuning.ipynb)
 
 ## Availability
