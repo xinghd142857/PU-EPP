@@ -8,6 +8,6 @@ Code ref: [notebook](https://github.com/xinghd142857/PU-EPP/blob/master/finetuni
 
 ## Availability
 
-DeepMBEnzy is freely available at [DeepMBEnzy](http://ai.biosynther.com/DeepMBEnzy/).
+DeepMBEnzy is freely available at [DeepMBEnzy](http://synbiodesign.com/DeepMBEnzy/).
 
 The code and test data are available at [EPP-MB](https://github.com/xinghd142857/PU-EPP/tree/master/EPP-MB).
